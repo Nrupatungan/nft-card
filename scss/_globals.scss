@@ -52,5 +52,15 @@ body{
     .etherium{
         display: flex;
         justify-content: space-between;
+        .left{
+            display: flex;
+            flex: 1;
+            justify-content: space-around;
+        }
+        .right{
+            display: flex;
+            flex: 2;
+            justify-content: right;
+        }
     }
 }
