@@ -9,4 +9,11 @@ html {
 *, *::after, *::before {
     box-sizing: inherit;
 }
-
+//body setup
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: $Verydarkbluemain;
+    color:#fff;
+    position: relative;
+    min-height: 100vh;
+}
