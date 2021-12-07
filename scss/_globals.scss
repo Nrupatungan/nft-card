@@ -56,11 +56,31 @@ body{
             display: flex;
             flex: 1;
             justify-content: space-around;
+            
+            img{
+                height: 20px;
+                align-self: center;
+            }
+            p{
+                color: $Cyan;
+                font-weight:600;
+                padding-right: 10px;
+                margin-right: 10px;
+            }
         }
         .right{
             display: flex;
             flex: 2;
             justify-content: right;
+
+            img{
+                height: 18px;
+                align-self: center;
+                margin-right: 5px;
+            }
+            p{
+                color: $Softblue;
+            }
         }
     }
 }

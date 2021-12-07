@@ -73,6 +73,20 @@ body {
       justify-content: space-around;
 }
 
+.container .etherium .left img {
+  height: 20px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.container .etherium .left p {
+  color: #00fff7;
+  font-weight: 600;
+  padding-right: 10px;
+  margin-right: 10px;
+}
+
 .container .etherium .right {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -83,4 +97,16 @@ body {
   -webkit-box-pack: right;
       -ms-flex-pack: right;
           justify-content: right;
+}
+
+.container .etherium .right img {
+  height: 18px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-right: 5px;
+}
+
+.container .etherium .right p {
+  color: #8bacda;
 }
