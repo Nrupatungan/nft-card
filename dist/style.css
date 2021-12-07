@@ -110,3 +110,8 @@ body {
 .container .etherium .right p {
   color: #8bacda;
 }
+
+.container .line {
+  border: 1px solid #8bacda;
+  margin-bottom: 20px;
+}

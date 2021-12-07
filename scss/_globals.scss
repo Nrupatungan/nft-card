@@ -56,7 +56,7 @@ body{
             display: flex;
             flex: 1;
             justify-content: space-around;
-            
+
             img{
                 height: 20px;
                 align-self: center;
@@ -82,5 +82,10 @@ body{
                 color: $Softblue;
             }
         }
+
+    }
+    .line{
+        border: 1px solid $Softblue;
+        margin-bottom: 20px;
     }
 }
