@@ -51,8 +51,8 @@ body {
   height: 360px;
   z-index: 100;
   cursor: pointer;
-  -webkit-transition: background-color 0.25s ease-in;
-  transition: background-color 0.25s ease-in;
+  -webkit-transition: background-color 0.25s ease;
+  transition: background-color 0.25s ease;
 }
 
 .container .header span:hover {
