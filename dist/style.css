@@ -19,7 +19,7 @@ body {
 }
 
 .container {
-  width: 455px;
+  width: 420px;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -40,17 +40,24 @@ body {
   text-align: left;
 }
 
-.container .header h2 {
+.container .header h2 a {
+  text-decoration: none;
+  color: white;
   font-size: 31px;
   font-weight: 600;
   line-height: 1;
+  -webkit-transition: color 0.25s ease-in;
+  transition: color 0.25s ease-in;
+}
+
+.container .header h2 a:hover {
+  color: #00fff7;
 }
 
 .container .header p {
   color: #8bacda;
   line-height: 1.4;
   font-size: 22px;
-  letter-spacing: 0.05em;
 }
 
 .container .etherium {
@@ -120,4 +127,33 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.container .avatar img {
+  height: 40px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-right: 15px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.container .avatar p {
+  color: #8bacda;
+  font-size: 18px;
+}
+
+.container .avatar p a {
+  text-decoration: none;
+}
+
+.container .avatar p a b {
+  color: white;
+  -webkit-transition: color 0.25s ease-in;
+  transition: color 0.25s ease-in;
+}
+
+.container .avatar p a b:hover {
+  color: #00fff7;
 }

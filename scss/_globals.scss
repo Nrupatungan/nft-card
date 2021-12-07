@@ -20,7 +20,7 @@ body{
 //Container setup
 //Nest all the container childs within container div
 .container{
-    width: 455px;
+    width: 420px;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -38,15 +38,23 @@ body{
             text-align: left;
         }
         h2{
-            font-size: 31px;
-            font-weight: 600;
-            line-height: 1;
+            a{
+                text-decoration: none;
+                color: $White;
+                font-size: 31px;
+                font-weight: 600;
+                line-height: 1;
+                transition: color 0.25s ease-in;
+            }
+            a:hover{
+                color: $Cyan;
+            }
+
         }
         p{
             color: $Softblue;
             line-height: 1.4;
             font-size: 22px;
-            letter-spacing: 0.05em; 
         }
     }
     .etherium{
@@ -90,5 +98,27 @@ body{
     }
     .avatar{
         display: flex;
+        img{
+            height: 40px;
+            border: 1px solid $White;
+            border-radius: 50%;
+            margin-right: 15px;
+            align-self: center;
+        }
+        p{
+            color: $Softblue;
+            font-size: 18px;
+            a{
+                text-decoration: none;
+                b{
+                    color: $White;
+                    transition: color 0.25s ease-in;
+                }
+                b:hover{
+                    color: $Cyan;
+                }
+            }
+        }
+        
     }
 }
