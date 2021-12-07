@@ -52,3 +52,12 @@ body {
   font-size: 22px;
   letter-spacing: 0.05em;
 }
+
+.container .etherium {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
