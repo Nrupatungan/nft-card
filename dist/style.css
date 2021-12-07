@@ -115,3 +115,9 @@ body {
   border: 1px solid #8bacda;
   margin-bottom: 20px;
 }
+
+.container .avatar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
