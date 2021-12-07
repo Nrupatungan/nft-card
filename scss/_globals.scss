@@ -29,5 +29,10 @@ body{
     text-align: center;
     background-color: $Verydarkbluecard;
     padding: 30px;
-    
+    .header{
+        img{
+            width: 100%;
+            border-radius: 10px;
+        }
+    }
 }

@@ -30,3 +30,8 @@ body {
   background-color: #14253d;
   padding: 30px;
 }
+
+.container .header img {
+  width: 100%;
+  border-radius: 10px;
+}
