@@ -20,5 +20,13 @@ body{
 //Container setup
 //Nest all the container childs within container div
 .container{
-    
+    width: 455px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    text-align: center;
+    background-color: $Verydarkbluecard;
+    padding: 30px;
 }
