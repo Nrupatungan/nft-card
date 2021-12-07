@@ -35,3 +35,20 @@ body {
   width: 100%;
   border-radius: 10px;
 }
+
+.container .header h2, .container .header p {
+  text-align: left;
+}
+
+.container .header h2 {
+  font-size: 31px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.container .header p {
+  color: #8bacda;
+  line-height: 1.4;
+  font-size: 22px;
+  letter-spacing: 0.05em;
+}
