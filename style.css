@@ -1,0 +1,166 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    position: absolute;
+    width: 17.778rem;
+    padding: 1.11rem;
+    border-radius: 0.833rem;
+    background-color: hsl(216, 50%, 16%);
+    transition: width 0.5s ease;
+    animation: introLoad 1s forwards;
+}
+
+.hero-section{
+    position: relative;
+    display: flex;
+    gap: 1.3889rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.556rem;
+}
+
+.hero-img{
+    width: 15.556rem;
+    border-radius: 0.833rem;
+}
+
+.hover-section{
+    position: relative;
+}
+
+.hover-section span{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 15.555555555555555555555555555556rem;
+    z-index: 100;
+    cursor: pointer;
+    border-radius: 0.8333rem;
+    transition: background-color 0.25s ease;
+}
+
+.hover-section span:hover{
+    background: transparent url(./images/icon-view.svg) no-repeat;
+    background-position: center;
+    background-color:hsla(178, 100%, 50%, 0.2);
+    border-radius: 0.833rem;
+}
+
+h1{
+    margin-bottom: 10px;
+    color: hsl(0, 0%, 100%);
+    transition:color 0.4s ease;
+}
+
+p{
+    letter-spacing: 0.047rem;
+    line-height: 1.6;
+    color:  hsl(215, 51%, 70%);
+}
+
+.stats{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.11rem;
+}
+
+span{
+    margin-right: 0.333rem;
+}
+
+.logo-text{
+    color:  hsl(178, 100%, 50%);
+    font-weight: 600;
+}
+
+span img{
+    margin-bottom: -0.111rem;
+}
+
+.avatar-section{
+    padding-top: 1.22rem;
+    border-top: 0.0556rem solid hsl(215, 51%, 70%);
+    font-size: 0.88rem;
+    margin-bottom: 0.3944rem;
+}
+
+.avatar-img{
+    width: 34px;
+    border: 0.0556rem solid #fff;
+    border-radius: 50%;
+    margin-bottom: -0.622rem;
+    margin-right: 0.3930rem;
+}
+
+strong{
+    color: #fff;
+    transition: color 0.4s ease;
+}
+
+h1:hover, strong:hover{
+    color:  hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+}
+
+.attribution { 
+    font-size: 0.611rem;
+    text-align: center;
+    color: #fff;
+}
+
+.attribution a {
+     color: hsl(228, 45%, 44%);
+}
+
+/* Aniamtion */
+@keyframes introLoad {
+    0%{
+        transform: translateY(-6.67rem);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Media breakpoints */
+@media only screen and (min-width: 900px){
+    html{
+        font-size: 19px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    html{
+        font-size: 20px;
+    }
+}
